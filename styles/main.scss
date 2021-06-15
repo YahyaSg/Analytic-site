@@ -1,0 +1,187 @@
+body {
+  background-color: #0b111e;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.bg-right {
+  min-height: 700px;
+  width: 815px;
+  margin-bottom: -700px;
+  background-color: #212331;
+  border-bottom-left-radius: 120px;
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      font-size: 16px;
+      font-weight: 300;
+      color: #fff;
+
+      &:hover {
+        text-decoration: underline;
+        font-weight: 400;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.btn-action {
+  .btn-sign-in {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 30px;
+
+    &:hover {
+      color: #434343;
+    }
+  }
+
+  .btn-sign-up {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff715d;
+    border-radius: 30px;
+
+    &:hover {
+      background-color: #fa9587;
+    }
+  }
+}
+
+.section-header {
+  margin-top: 100px;
+  .header-left {
+    h1 {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: unset;
+
+      span {
+        background-color: #3b76f2;
+      }
+    }
+  }
+}
+
+.section-benefits {
+  margin-top: 300px;
+
+  .benefit-content {
+    margin-top: 170px;
+
+    a {
+      text-decoration: none;
+      color: #ff715d;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    img {
+      margin-top: -100px;
+    }
+  }
+}
+
+.testimonial {
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+  h2 {
+    margin-top: 80px;
+  }
+  h5 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  p {
+    font-weight: 200;
+    font-size: 16px;
+  }
+}
+
+.newslatter {
+  background-color: #3b76f2;
+  border-radius: 50px;
+  min-width: 500px;
+  padding: 30px;
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn-newslatter {
+    .btn {
+      margin-left: -300px;
+    }
+  }
+}
+
+.section-footer {
+  min-height: 650px;
+  border-top-left-radius: 100px;
+  background-color: #212331;
+  padding-top: 100px;
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: unset;
+
+  .logo-bottom {
+    margin-top: 90px;
+    p {
+      margin-top: 60px;
+    }
+
+    .logo-image {
+      width: 45px;
+      height: 45px;
+      float: left;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 400;
+      overflow: hidden;
+      float: left;
+
+      h5 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      ul {
+        li {
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 200;
+            color: #fff;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 16px;
+    }
+  }
+}
